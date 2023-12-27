@@ -344,7 +344,7 @@ body{
         display: inline-block;
         color: var(--bg-5);
     }
-    .navbar .navbar-list {
+    .navbar .navbar-list{
         position: absolute;
         top: 100%;
         right: -100%;
@@ -356,6 +356,8 @@ body{
     .navbar .navbar-list.active{
         right: 0;
     }
+
+
 
     .hero .img-2{
         height: 55vh;
@@ -401,12 +403,23 @@ body{
         font-size: 52%;
     }
 
+    .img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .navbar-logo h1{
+        font-size: 1.8rem;
+    }
+
+
     .hero .hero-content h2{
         font-size: 2.5rem;
     }
 
     .hero .hero-content p{
         font-size: 1.5rem;
+        padding-bottom: 2rem;
     }
 
     .hero .img-2{
@@ -417,7 +430,10 @@ body{
 
     .hero .btn-hero button{
         font-size: 1.5rem;
+        border-radius: 4px;
+        padding: 1rem;
     }
+
     .hero .btn-hero a{
         font-size: 1.5rem;
     }
@@ -477,7 +493,7 @@ body{
         'shop-hero'
         'feature-1'
         'feature-2';
-        height: 400px;
+        height: 800px;
     }
 
     /* footer */
@@ -486,7 +502,7 @@ body{
     }
 
     .footer-content {
-        padding: 2rem;
+        padding: 2rem 0rem;
     }
     .footer-content p{
         font-size: 1.5rem;
